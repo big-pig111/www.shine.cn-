@@ -152,6 +152,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 <body>
+  <!-- 通过遮罩层实现 -->
+<style>
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+}
+</style>
+
+<div class="overlay"></div>
     <div class="site-header-v2-bg"></div>
 <div class="site-header-v2">
     <div class="container">
